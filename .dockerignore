@@ -1,0 +1,60 @@
+# =====================================
+# .dockerignore for FastAPI + PaddleOCR
+# =====================================
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & runtime artifacts
+*.log
+*.tmp
+*.bak
+
+# Unit test / coverage files
+.coverage
+htmlcov/
+pytest_cache/
+.cache/
+
+# Not needed for image
+docs/
+examples/
+tests/
+
+# Git / version control
+.git/
+.gitignore
+
+# Local data and model outputs
+data/
+outputs/
+results/
+saved_models/
+
+# Optional: if your app downloads Paddle mo
